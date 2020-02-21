@@ -1,5 +1,6 @@
-import 'package:copiando_instagram/insta_home.dart';
 import 'package:flutter/material.dart';
+
+import 'insta_home.dart';
 
 void main() => runApp(new MyApp());
 

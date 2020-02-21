@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'insta_body.dart';
+
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(
     backgroundColor: new Color(0xfff8faf8),
@@ -21,7 +23,7 @@ class InstaHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: topBar,
-      body: Container(),
+      body: InstaBody(),
       bottomNavigationBar: Container(
           color: Colors.white,
           height: 50.0,
